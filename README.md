@@ -42,8 +42,3 @@ task-1-OOP-basics
 `stop_engine` | Нет | Метод отключения двигателя. Метод должен выводить в консоль строку Двигатель остановлен. Также метод должен менять статус двигателя в атрибуте `__engine_status` на `false`.
 `switch_on_headlights` | `light_type`:`str` - режим освещения. Для аргумента возможны только два значения: `"ближний"` и `"дальний"` | Метод включения фар. В зависимости от принимаемого аргумента включается ближний или дальний свет фар. В методе необходимо предусмотреть проверку на корректность аргумента `light_type` и в случае ошибки вывести в консоль строку `Вы выбрали неверный режим освещения. Возможные режимы: "ближний" и "дальний"`. Если аргумент корректен, то в зависимости от аргумента вывести либо строку `Включен ближний свет`, либо строку `Включен дальний свет`. Также метод должен менять статус освещения в атрибуте `__headlights_status` на `true`.
 `switch_off_headlights` | Нет | Метод для отключения фар. Должен выводить в консоль строку `Фары отключены`. Также метод должен менять статус освещения в атрибуте `__headlights_status` на `false`.
-### Список источников, которые могут помочь в реализации данного задания
-+ [https://metanit.com/python/tutorial/7.1.php](https://metanit.com/python/tutorial/7.1.php)
-+ [http://python-3.ru/page/svojstva-klassa-oop-python](http://python-3.ru/page/svojstva-klassa-oop-python)
-+ [https://younglinux.info/oopython.php](https://younglinux.info/oopython.php)
-+ [https://python-scripts.com/object-oriented-programming-in-python](https://python-scripts.com/object-oriented-programming-in-python)
